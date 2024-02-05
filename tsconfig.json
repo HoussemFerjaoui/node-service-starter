@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "removeComments": false,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "ES2019",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "declaration": false,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  "lib": [
+    "esnext",
+    "esnext.asynciterable"
+  ],
+  "exclude": [
+    "dist",
+    "tests",
+    "**/*.d.ts",
+    "**/__tests__"
+  ]
+}
