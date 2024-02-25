@@ -27,3 +27,5 @@ coverage.current
 
 meta.json
 
+# .lock
+package-lock.json

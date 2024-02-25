@@ -5,3 +5,4 @@ This is a nodejs-service-starter starting point, that includes:
 - [x] Nodemoon.
 - [x] Basic scripts.
 - [x] Basic dotenv loading.
+- [ ] Create a yarn version of this service.
